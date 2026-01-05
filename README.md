@@ -22,16 +22,16 @@ writeeof
 @pc-helyos # testvga
 ...
 
-##Commands and his work:
+Commands and his work:
 
-Help: showing the command list.
-acpi: Switching ACPI state.
-list <dev> (disk / partitions): Showing all disks or partitions
-ls <dir> (or without): Showing files in directory
+Help - showing the command list.
+acpi - Switching ACPI state.
+list <dev> (disk / partitions) - Showing all disks or partitions
+ls <dir> (or without) - Showing files in directory
 touch <name> <size> (size: optional *in bytes*): Make file with name and size (in bytes)
-mkdir <name>: make directory with name
-rm <name> -arg (-d or not): remove file or directory (-d for dir's)
-echo <text>: print to screen
+mkdir <name> - make directory with name
+rm <name> -arg (-d or not) - remove file or directory (-d for dir's)
+echo <text> - print to screen
 unk / null - trigger NULL_REFERENCE_ERROR
 wf <path\to\file> <text content>: write text to file
 cat <path>: read from file
@@ -46,7 +46,7 @@ slp <time ms> - wait time in ms
 hlt - halt cpu (stop)
 trigger <code> - trigger error with code
 
-##db2 syntax:
+db2 syntax:
 ps "text" - print to screen
 cls - clear screen
 cf - create file
@@ -66,7 +66,7 @@ shd / rbt - power
 ls - listing
 
 
-##Debug commands:
+Debug commands:
 db2 - run command from db2
 run - run file
 testscript - run 0:\system\test.db2
